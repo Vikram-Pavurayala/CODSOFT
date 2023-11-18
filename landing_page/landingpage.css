@@ -40,9 +40,9 @@ button::before {
   bottom: 0;
   left: 0;
   width: 0;
-  height: 2px; /* Adjust the thickness of the underline */
+  height: 2px; 
   background-color: #fff;
-  transition: width 0.3s ease; /* Smooth transition for width */
+  transition: width 0.3s ease; 
 }
 
 button:hover::before {
