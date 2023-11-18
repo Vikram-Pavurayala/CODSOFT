@@ -39,9 +39,8 @@ function createScene() {
   const controls = new THREE.OrbitControls(camera, renderer.domElement);
   controls.enableZoom = false;
   controls.enablePan = false;
-  // Set some initial parameters for the controls
-  controls.enableDamping = true; // Add damping for smoother rotation
-  controls.dampingFactor = 0.01; // Adjust the damping factor*/
+  controls.enableDamping = true;
+  controls.dampingFactor = 0.01;
   controls.rotateSpeed = 0.5;
 
 
